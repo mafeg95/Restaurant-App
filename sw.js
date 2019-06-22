@@ -20,7 +20,6 @@ var urlsToCache = [
   'http://localhost:8000/marker-icon-2x.png',
   'http://localhost:8000/marker-shadow.png',
   'https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700&amp;subset=cyrillic',
-  
   ];
 
 if ('serviceWorker' in navigator) {
