@@ -14,6 +14,7 @@ body {
 	background-color: #fdfdfd;
 	margin: 0;
 	position:relative;
+	overflow-x: hidden;
 }
 
 td {
@@ -337,7 +338,7 @@ nav h1 a {
 	}
 
 	#footer {
-		width: 100%;
+		width: 87%;
 
 	}
 
@@ -347,7 +348,7 @@ nav h1 a {
 	}
 
 	.inside #footer{
-		width: 100%;
+		width: 87%;
 	}
 
 	.inside #map-container{
