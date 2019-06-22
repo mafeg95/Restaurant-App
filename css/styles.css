@@ -323,7 +323,7 @@ nav h1 a {
 		font-size: 25pt;
 	}
 
-	#breadcrumb li a {
+	#breadcrumb li a, #breadcrumb li+li:before {
 		font-size: 25pt;
 	}
 
@@ -371,6 +371,21 @@ nav h1 a {
 
 	td {
 		font-size: 1em;
+	}
+	#breadcrumb{
+		padding: 0;
+		padding-left: 20px; 
+	}
+	#breadcrumb li a {
+		font-size: 0.8em;
+	}
+
+	#breadcrumb li {
+		font-size: 0.5em;
+	}
+
+	#breadcrumb li+li:before{
+		font-size: 0.8em;
 	}
 
 }
@@ -470,12 +485,21 @@ nav h1 a {
 		font-size: 1em;
 	}
 	#breadcrumb li a {
-		font-size: 0.7em;
+		font-size: 0.8em;
+	}
+
+	#breadcrumb li {
+		font-size: 0.5em;
+	}
+
+	#breadcrumb li+li:before{
+		font-size: 0.8em;
 	}
 
 	#breadcrumb{
 		padding: 0;
 		padding-left: 20px;
+		width: calc(50% - 20px);
 	}
 
 	.filter-options h2 {
